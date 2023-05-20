@@ -12,10 +12,10 @@ html {
 }
 
 body {
-    background-color: rgb(129, 229, 229);
-    background-image: url(); /* insert IMG */
+    background-color: rgba(1, 142, 27, 0.309);
+    background-image: url(../img/Background.jpeg);
     background-size: cover;
-    background-blend-mode: overlay;
+    background-blend-mode: color-burn;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -25,8 +25,9 @@ body {
 
 main {
     display: flex;
-    flex-direction: column;
-    position: relative;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
     width: 100%;
 }
 
